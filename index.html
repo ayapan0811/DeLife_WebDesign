@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><!-- 文字コードの指定（Emmetで自動出力） -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE対策（Emmetで自動出力） -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- レスポンシブ対応用のviewport設定（Emmetで自動出力） -->
+        <title>DeLife｜自由なライフスタイルをデザインする</title><!-- ページのタイトル（Emmetで自動出力） -->
+
+        <meta name="description" content="WEBデザインを軸に、フリーランスとして継続的に月20万円以上を稼ぎ続けるためのトータル的なスキルを学ぶオンラインスクールです。"><!-- ページの説明 -->
+        <meta name="robots" content="index, follow"><!-- 検索エンジンのクローラ（サイトの内容を読み取るロボット）の動きを指定 -->
+        <link rel="canonical" href="https://xxxxx.com"><!-- URLの正規化（重複するURLを一本化） -->
+        <meta property="og:locale" content="ja_JP"><!-- Facebookの翻訳言語 -->
+        <meta property="og:type" content="website"><!-- ページタイプ。トップページは website 、下層ページは article -->
+        <meta property="og:title" content="DeLife｜自由なライフスタイルをデザインする"><!-- 上記 title と同じにする。 -->
+        <meta property="og:description" content="WEBデザインを軸に、フリーランスとして継続的に月20万円以上を稼ぎ続けるためのトータル的なスキルを学ぶオンラインスクールです。"><!-- 上記 description と同じにする。 -->
+        <meta property="og:url" content="https://xxxxx.com"><!-- ページのURL -->
+        <meta property="og:site_name" content="DeLife"><!-- サイトの名前 -->
+        <meta property="og:image" content="https://xxxxx.com/assets/img/ogp.png"><!-- OGP用の画像ファイルのパス -->
+        <meta name="twitter:card" content="summary_large_image"><!-- twitterカードの種類 -->
+        <!-- favicon や apple-touch-icon がある場合、読み込み -->
+        <link rel="icon" href="/img/favicon.png" sizes="32x32"><!-- favicon -->
+        <link rel="icon" href="/img/favicon.png" sizes="192x192"><!-- favicon -->
+        <link rel="shortcut icon" href="/img/favicon.png"><!-- favicon -->
+        <link rel="apple-touch-icon-precomposed" href="/img/favicon.png"><!-- apple-touch-icon -->
+        <meta name="msapplication-TileImage" content="/img/favicon.png"><!-- Windowsピン留め画像 -->
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- 以下、Webフォント、CSSファイル等の読み込み -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/style.css">
+        <script src="./script.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    </head>
+<body>
+  <!--HEADER-->
+  <header class="header">
+    <div class="header-container">
+        <h1 class="header-logo">
+            <a href="/index.html">
+                <img src="./img/common/logo_bl.png" alt="自由なライフスタイルをデザインする" class="hrader_logo">
+            </a>
+        </h1>
+        <nav class="header-nav" id="h-nav">
+            <h1 class="logo">
+                <a href="/index.html">
+                    <img src="./img/common/logo_wh.png" alt="自由なライフスタイルをデザインする" class="hmg-logo">
+                </a>
+            </h1>
+            <ul class="nav">
+                <i class="fa-solid fa-xmark"></i>
+                <li class="header-nav-item nav-item"><a href="/index.html">TOP</a></li>
+                <li class="header-nav-item nav-item"><a href="/about.html">ABOUT</a></li>
+                <li class="header-nav-item nav-item"><a href="/interview.html">INTERVIEW</a></li>
+                <li class="header-nav-item nav-item"><a href="/news.html">NEWS</a></li>
+                <li class="header-nav-item nav-item"><a href="/faq.html">FAQ</a></li>
+                <li class="hm-btns">
+                    <a href="/pdf/document.pdf" target="_blank" class="common-btn white-btn">
+                        資料請求する
+                        <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="white" stroke-width="1.5"/></svg>
+                    </a>
+                    <a href="/contact.html" target="_blank" class="common-btn header-btn">
+                        問い合わせる
+                        <svg class="black-icon" fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="#000" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sns-list">
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_nav_btn">
+            <span class="header_nav_bar m_top"></span>
+            <span class="header_nav_bar m_middle"></span>
+            <span class="header_nav_bar m_bottom"></span>
+        </div>
+    </div>
+  </header>
+  <!-- <header class="header">
+    <div class="header-container">
+        <h1 class="header-logo">
+            <a href="/index.html">
+                <img src="./img/common/logo_bl.png" alt="自由なライフスタイルをデザインする" class="hrader_logo">
+            </a>
+        </h1>
+        <nav class="header-nav">
+            <ul class="nav">
+                <li class="header-nav-item nav-item"><a href="/about.html">ABOUT</a></li>
+                <li class="header-nav-item nav-item"><a href="/interview.html">INTERVIEW</a></li>
+                <li class="header-nav-item nav-item"><a href="/news.html">NEWS</a></li>
+                <li class="header-nav-item nav-item"><a href="/faq.html">FAQ</a></li>
+                <li>
+                    <a href="/contact.html" class="common-btn header-btn">
+                        問い合わせる
+                        <svg class="black-icon" fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="#000" stroke-width="1.5"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_nav_btn">
+            <span class="header_nav_bar m_top"></span>
+            <span class="header_nav_bar m_middle"></span>
+            <span class="header_nav_bar m_bottom"></span>
+        </div>
+    </div><!-header-container-->
+<!-- </header> -->
+
+  <main class="top-main">
+    <!--FV-->
+    <section class="top-fv">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="/img/home/mv_1.jpg">
+                        <source media="(min-width: 375px)" srcset="/img/home/mv_1_sp.jpg">
+                        <img src="/img/home/mv_1.jpg" alt="Design + Life">
+                    </picture>
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="/img/home/mv_2.jpg">
+                        <source media="(min-width: 375px)" srcset="/img/home/mv_2_sp.jpg">
+                        <img src="/img/home/mv_2.jpg" alt="Design + Life">
+                    </picture>
+                </div>
+                <div class="swiper-slide slide3">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="/img/home/mv_3.jpg">
+                        <source media="(min-width: 375px)" srcset="/img/home/mv_3_sp.jpg">
+                        <img src="/img/home/mv_3.jpg" alt="Design + Life">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <div class="fv-container">
+            <article class="fv-text">
+                <h2 class="fv-sub-title"> DESIGN + LIFE</h2>
+                <h2 class="fv-title"> DESIGN YOUR LIFE.</h2>
+                <p>時間と場所に縛られない、<br>自由なライフスタイルをデザインする</p>
+            </article>
+            <ul class="sns-list">
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="sns-list-item">
+                    <a href="#" target="_blank" rel="noopener">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div><!--fv-container-->
+    </section>
+
+    <!-- <section class="top-fv">
+        <div class="fv-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="background-image">
+                        <picture>
+                            <source media="(min-width: 375px)" srcset="/img/home/mv_1_sp.jpg">
+                            <source media="(max-width: 768px)" srcset="/img/home/mv_1.jpg">
+                            <img src="img/home/mv_1.jpg" alt="Design + Life">
+                        </picture>
+                    </div>
+                    <article class="fv-text">
+                        <h2 class="fv-sub-title"> DESIGN + LIFE</h2>
+                        <h2 class="fv-title"> DESIGN YOUR LIFE.</h2>
+                        <p>時間と場所に縛られない、<br>自由なライフスタイルをデザインする</p>
+                    </article>
+                    <ul class="sns-list">
+                        <li class="sns-list-item">
+                            <a href="#" target="_blank" rel="noopener">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="sns-list-item">
+                            <a href="#" target="_blank" rel="noopener">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="sns-list-item">
+                            <a href="#" target="_blank" rel="noopener">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide slide2">
+                </div>
+                <div class="swiper-slide slide3">
+                </div>
+            </div>swiper-wrapper-->
+        <!-- </div>fv-container -->
+    <!-- </section> -->
+    <!--MSG-->
+    <section class="top-msg js-fade">
+        <div class="msg-container">
+            <figure>
+                <img src="./img/common/text_copy.png" alt="design+life">
+            </figure>
+            <article class="section-text-area">
+                <h2 class="section-title msg-title">WEBデザインに特化した新しいスクール。</h2>
+                <p>WEBデザインを軸に<br> フリーランスとして<br> 継続的に月20万円以上を稼ぎ続ける。</p>
+                <p>そのために必要なトータルスキルを学ぶ<br> 新しいオンラインスクールです。</p>
+                <a href="/about.html" class="common-btn more-btn">
+                    more
+                    <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="#000" stroke-width="1.5"/></svg>
+                </a>
+            </article>
+        </div><!--msg-container-->
+    </section>
+    <!--INT-->
+    <section class="top-interview js-fade">
+        <div class="interview-container">
+            <h2 class="interview-bg">INTERVIEW</h2>
+            <div class="text-container">
+                <article class="section-text-area">
+                    <h2 class="section-title">DeLifeでは<br> これまで受講した人達の声を<br> 記録・公表しています。</h2>
+                    <p>過去の受講生の声を見る。</p>
+                    <a href="/interview.html" class="common-btn more-btn">
+                        more
+                        <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="#000" stroke-width="1.5"/></svg>
+                    </a>
+                </article>
+                <figure>
+                    <img src="./img/home/interview_1.jpg" alt="interview">
+                </figure>
+            </div>
+        </div><!--int-container-->
+    </section>
+    <!--NEWS-->
+    <section class="top-news js-fade">
+        <div class="news-container">
+            <article class="section-text-area news-title">
+                <h2 class="section-title">NEWS</h2>
+                <p>スクールに関するお知らせ。</p>
+            </article>
+            <ul class="news-list">
+                <li class="news-item">
+                    <a href="/news-single.html" class="news-content">
+                        <aside>
+                            <time datetime="2020-12-15">2020.12.15</time>
+                            <h3 class="news-text">お知らせ。</h3>
+                        </aside>
+                        <svg fill="none" height="6" viewBox="0 0 13 6" width="13" xmlns="http://www.w3.org/2000/svg"><path d="m12.113.75-5.43782 3.84278-5.43785-3.84278" stroke="#000" stroke-width="1.5"/></svg>
+                    </a>
+                </li>
+                <li class="news-item">
+                    <a href="/news-single.html" class="news-content">
+                        <aside>
+                            <time datetime="2020-12-15">2020.12.15</time>
+                            <h3 class="news-text">お知らせ。</h3>
+                        </aside>
+                        <svg fill="none" height="6" viewBox="0 0 13 6" width="13" xmlns="http://www.w3.org/2000/svg"><path d="m12.113.75-5.43782 3.84278-5.43785-3.84278" stroke="#000" stroke-width="1.5"/></svg>
+                    </a>
+                </li>
+                <li class="news-item">
+                    <a href="/news-single.html" class="news-content">
+                        <aside>
+                            <time datetime="2020-12-15">2020.12.15</time>
+                            <h3 class="news-text">お知らせ。</h3>
+                        </aside>
+                        <svg fill="none" height="6" viewBox="0 0 13 6" width="13" xmlns="http://www.w3.org/2000/svg"><path d="m12.113.75-5.43782 3.84278-5.43785-3.84278" stroke="#000" stroke-width="1.5"/></svg>
+                    </a>
+                </li>
+                <li class="news-item">
+                    <a href="/news-single.html" class="news-content">
+                        <aside>
+                            <time datetime="2020-12-15">2020.12.15</time>
+                            <h3 class="news-text">お知らせ。</h3>
+                        </aside>
+                        <svg fill="none" height="6" viewBox="0 0 13 6" width="13" xmlns="http://www.w3.org/2000/svg"><path d="m12.113.75-5.43782 3.84278-5.43785-3.84278" stroke="#000" stroke-width="1.5"/></svg>
+                    </a>
+                </li>
+            </ul>
+            <a href="/news.html" class="common-btn more-btn">
+                more
+                <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="#000" stroke-width="1.5"/></svg>
+            </a>
+        </div>
+    </section>
+    <!--WP SECTION-->
+    <section class="wp js-fade">
+        <div class="wp-container">
+            <article class="section-text-area">
+                <h2 class="section-title wp-title">資料請求</h2>
+                <p>
+                    DeLifeの詳細やカリキュラムについては資料に詳しく掲載しています。 ご希望の方はご請求ください。
+                </p>
+            </article>
+            <a href="/pdf/document.pdf" target="_blank" class="common-btn white-btn">
+                資料請求する
+                <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="white" stroke-width="1.5"/></svg>
+            </a>
+        </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <figure>
+                <img src="./img/common/logo_wh.png" alt="自由なライフスタイルをデザインする">
+            </figure>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item nav-item"><a href="/index.html">TOP</a></li>
+                    <li class="footer-nav-item nav-item"><a href="/about.html">ABOUT</a></li>
+                    <li class="footer-nav-item nav-item"><a href="/interview.html">INTERVIEW</a></li>
+                    <li class="footer-nav-item nav-item"><a href="/news.html">NEWS</a></li>
+                    <li class="footer-nav-item nav-item"><a href="/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="btns">
+                <a href="/pdf/document.pdf" target="_blank" class="common-btn white-btn">
+                    資料請求する
+                    <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="white" stroke-width="1.5"/></svg>
+                </a>
+                <a href="/contact.html" class="common-btn white-btn">
+                    問い合わせる
+                    <svg fill="none" height="13" viewBox="0 0 5 13" width="5" xmlns="http://www.w3.org/2000/svg"><path d="m1.26093 1.40747c3.15604 2.6616 3.15604 7.52359 0 10.18523" stroke="white" stroke-width="1.5"/></svg>
+                </a>
+            </div>
+        </div><!--footer-top-->
+        <div class="copy-right">
+            <p>Copyright &copy; 2020 DeLife All rights reserved.</p>
+        </div>
+    </div>
+  </footer>
+
+
+
+</body>
+</html>

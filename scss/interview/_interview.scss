@@ -1,0 +1,199 @@
+
+//360
+@media (min-width:$mobileScreen){
+
+    /*==================
+    INTERVIEW-FV
+    ===================*/
+    .interview-fv{
+        background-image: url(/img/interview/mv_sp.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        box-sizing: border-box;
+    }
+    /*==================
+    INT
+    ===================*/
+    .int{
+        width: 100%;
+        padding-top: 120px;
+        figure{
+            position: relative;
+            width: 89.33%;
+            margin: 0 auto;
+            // width: 100%;
+            @include flex-column;
+            align-items: center;
+            z-index: 1;
+            a{
+                position: absolute;
+                bottom:3px;
+                width: 272px;
+            }
+        }
+        img{
+            width: 78.67vw;
+        }
+        figcaption{
+            position: relative;
+            // position: absolute;
+            top: -50px;
+            width: 100%;
+            background-color: $white;
+            padding-bottom: 32px;
+            padding-top: 65px;
+            z-index: -1;
+            h3,h4{
+                width: 78.76vw;
+                margin: 0 auto;
+            }
+            h3{
+                font-size: 16px;
+                padding-bottom: 40px;
+            }
+            h4{
+                color: $grayColor;
+                font-size: 14px;
+            }
+        }
+        // .common-btn{
+        //     // width: 100%;
+        // }
+        .section-title{
+            padding-bottom: 60px;
+            @include flex-column;
+            align-items: center;
+        }
+        .int-content{
+            position: relative;
+            width: 100%;
+            // width: 89.33%;
+            @include columnRow(86px);
+            align-items: center;
+            padding-bottom: 80px;
+        }
+        .int-container{
+            position: relative;
+            width: 100%;
+            @include flex-column;
+            align-items: center;
+        }
+        .bgc-gray{
+            position: absolute;
+            background-color: $lightGray;
+            bottom:0;
+            width: 100%;
+            height: 79%;
+        }
+    }
+    .page-nation{
+        width: 52.27%;
+        margin: 0 auto;
+        padding-top: 80px;
+        padding-bottom: 120px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            width: 10.67vw;
+            height: 10.67vw;
+            border: solid 2px $black;
+            @include flex-center;
+        }
+    }
+}
+//768
+@media (min-width:$tabletScreen){
+    .int{
+        .int-content{
+            flex-direction: row;
+            justify-content: space-between;
+            padding-bottom: 80px;
+        }
+        img{
+            // width: 25vw;
+            max-width: 90%;
+        }
+        figure{
+            width: 30%;
+            @include flex-column;
+            align-items: center;
+            z-index: 1;
+            h3,h4{
+                width: 90%;
+            }
+        }
+
+        .common-btn{
+            width: 95%;
+        }
+    }
+    .page-nation{
+        width: 30%;
+        li{
+            width: 5vw;
+            height: 5vw;
+        }
+    }
+}
+//1024
+@media (min-width:$desktopScreen){
+    .interview-fv{
+        height: 700px;
+        background-image: url(/img/interview/mv.jpg);
+    }
+
+    .int{
+        .int-container{
+            position: relative;
+            padding: 0 90px;
+        }
+        .int-content{
+            column-gap: 55px;
+            padding-bottom: 90px;
+        }
+        figure{
+            width: 26.39vw;
+            a{
+                bottom:-13px;
+            }
+        }
+        figcaption{
+            top: -30px;
+            padding-top: 43px;
+            padding-bottom: 40px;
+            h3{
+                font-size: 24px;
+            }
+            h3,h4{
+                width: 80%;
+            }
+            h4{
+                font-size: 16px;
+            }
+        }
+        img{
+            width: 300px;
+        }
+        .common-btn{
+            max-width: 272px;
+        }
+        .bgc-gray{
+            position: absolute;
+            background-color: $lightGray;
+            bottom:0;
+            width: 100%;
+            height: 500px;
+
+        }
+    }
+    .page-nation{
+        width: 13.61%;
+        li{
+            width: 2.78vw;
+            height: 2.78vw;
+        }
+}
+}

@@ -1,0 +1,126 @@
+//360
+@media (min-width:$mobileScreen){
+
+    /*==================
+    FAQ-FV
+    ===================*/
+    .faq-fv{
+        background-image: url(/img/faq/mv_sp.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        box-sizing: border-box;
+    }
+    .faq{
+        width: 100%;
+        .faq-container{
+            padding: 120px 0;
+            width: 89.33%;
+            margin:  0 auto;
+        }
+        .section-title{
+            @include flex-column;
+            align-items: center;
+            padding-bottom: 57px;
+        }
+        .qa-content{
+            width: 100%;
+            @include columnRow(18px);
+        }
+        .qa-item{
+            width: 100%;
+            @include columnRow(12px);
+            padding-bottom: 18px;
+            border-bottom: 1px solid #DDDDDD;
+            p{
+                width: 83.58%;
+                letter-spacing: 0.1em;
+                line-height: 1.8;
+            }
+            i{
+                position: absolute;
+                right: 5px;
+                font-size: 20px;
+            }
+            aside{
+                position: relative;
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            h4{
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .a-area{
+                display: none;
+            }
+            .question{
+                font-size: 16px;
+                font-weight: 700;
+                color: #DEDEDE;
+                font-family: $font-familyR;
+                padding-right: 12px;
+            }
+            .answer{
+                font-size: 16px;
+                font-weight: 700;
+                font-family: $font-familyR;
+                padding-right: 12px;
+            }
+        }
+        //アコーディオン
+
+
+    }
+
+}
+//768
+@media (min-width:$tabletScreen){
+
+    .faq{
+        .faq-container{
+            width: 62.5%;
+        }
+    }
+}
+//1024
+@media (min-width:$desktopScreen){
+    .faq-fv{
+        background-image: url(/img/faq/mv.jpg);
+        height: 700px;
+    }
+    .faq{
+        .fav-container{
+            padding-top: 125px;
+        }
+        .qa-content{
+            @include columnRow(24px);
+        }
+        .section-title{
+            padding-bottom: 60px;
+        }
+        .qa-item{
+            @include columnRow(24px);
+            h4{
+                font-size: 24px;
+                letter-spacing: 0.09em;
+                &:after{
+                    width: 15px;
+                    right: 0;
+                }
+            }
+            p{
+                font-size: 16px;
+            }
+            .question{
+                font-size: 32px;
+            }
+            .answer{
+                font-size: 32px;
+            }
+    }
+}
+}
