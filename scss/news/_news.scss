@@ -4,7 +4,7 @@
     NEWS-FV
     ===================*/
     .news-fv{
-        background-image: url(/img/news/mv_sp.jpg);
+        background-image: url(../img/news/mv_sp.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -129,7 +129,7 @@
     //1024
     @media (min-width:$desktopScreen){
         .news-fv{
-            background-image: url(/img/news/mv.jpg);
+            background-image: url(../img/news/mv.jpg);
             height: 700px;
         }
         .news-page{
