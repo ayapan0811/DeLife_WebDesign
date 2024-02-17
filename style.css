@@ -511,7 +511,7 @@ ul {
   ==========================*/
   .wp {
     width: 100%;
-    background-image: url(./../img/common/request_bg.jpg);
+    background-image: url(../img/common/request_bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -686,7 +686,7 @@ ul {
   WP
   ==========================*/
   .wp {
-    background-image: url(../img/common/request_bg.jpg);
+    background-image: url(../../img/common/request_bg.jpg);
     padding-bottom: 120px;
   }
   .wp .wp-container {
