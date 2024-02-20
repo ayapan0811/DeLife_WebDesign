@@ -6,7 +6,7 @@
     INTERVIEW-FV
     ===================*/
     .interview-fv{
-        background-image: url(../img/interview/mv_sp.jpg);
+        background-image: url(././img/interview/mv_sp.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -142,7 +142,7 @@
 @media (min-width:$desktopScreen){
     .interview-fv{
         height: 700px;
-        background-image: url(../img/interview/mv.jpg);
+        background-image: url(././img/interview/mv.jpg);
     }
 
     .int{

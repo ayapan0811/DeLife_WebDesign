@@ -5,7 +5,7 @@
     FAQ-FV
     ===================*/
     .faq-fv{
-        background-image: url(../img/faq/mv_sp.jpg);
+        background-image: url(././img/faq/mv_sp.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -89,7 +89,7 @@
 //1024
 @media (min-width:$desktopScreen){
     .faq-fv{
-        background-image: url(../img/faq/mv.jpg);
+        background-image: url(././img/faq/mv.jpg);
         height: 700px;
     }
     .faq{
